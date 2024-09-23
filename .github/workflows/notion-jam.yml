@@ -27,7 +27,7 @@ jobs:
         uses: victornpb/notion-jam@v0.0.4
         with:
           NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
-          NOTION_DATABASE: 59ea576ee34d4919b049c6012779b6ee
+          NOTION_DATABASE: 10abca23e55c80a986bffba31011305f
           ARTICLE_PATH: posts/{title}/index.md
           ASSETS_PATH: '.'
           PARALLEL_PAGES: 3
