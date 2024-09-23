@@ -29,8 +29,8 @@ jobs:
         with:
           NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
           NOTION_DATABASE: 10abca23e55c8036b1c4e50efefd7503
-          FILTER_PROP: Status
-          FILTER_VALUES: Complete
+          FILTER_PROP: ID
+          FILTER_VALUES: 1
           CONVERT_PROP_CASE: snake
           ARTICLE_PATH: content/posts/{title}/README.md
           ASSETS_PATH: ./
